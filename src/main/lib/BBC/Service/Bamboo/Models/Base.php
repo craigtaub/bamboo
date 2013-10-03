@@ -117,7 +117,6 @@ class BBC_Service_Bamboo_Models_Base
      *
      */
     private function _setBroadcastEpisode() {
-        // @codingStandardsIgnoreStart
         if (isset($this->_response->episode) && isset($this->_episode)) {
                 if ($this->_response->episode->type === 'episode') {
                    $this->_episode = new BBC_Service_Bamboo_Models_Episode($this->_response->episode);
@@ -125,6 +124,5 @@ class BBC_Service_Bamboo_Models_Base
         } else {
             BBC_Service_Bamboo_Log::info("Expected property \$_$key to be set on " . get_class($this));
         }
-        // @codingStandardsIgnoreEnd
     }
 }

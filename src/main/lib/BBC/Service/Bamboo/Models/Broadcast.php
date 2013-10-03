@@ -24,9 +24,7 @@ class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
      * @return string
      */
     public function getType() {
-        // @codingStandardsIgnoreStart
         return $this->_type;
-        // @codingStandardsIgnoreEnd
     }
 
     /**
@@ -57,108 +55,7 @@ class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
      * @return BBC_Service_Bamboo_Models_Episode
      */
     public function getEpisode() {
-        // @codingStandardsIgnoreStart
         return $this->_episode;
-        // @codingStandardsIgnoreEnd
-    }
-
-
-    /**
-     * Get episode image inside Broadcast
-     * 
-     * @return string
-     */
-    public function getStandardImage() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getStandardImage();
-        // @codingStandardsIgnoreEnd
-    }
-
-
-    /**
-     * Get episode image inside Broadcast
-     * 
-     * @return string
-     */
-    public function getTitle() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getTitle();
-        // @codingStandardsIgnoreEnd
-    }
-
-    /**
-     * Get episode slug inside Broadcast
-     * 
-     * @return string
-     */
-    public function getSlug() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getSlug();
-        // @codingStandardsIgnoreEnd
-    }
-
-
-    /**
-     * Get episode priority version slug inside Broadcast
-     * 
-     * @return string
-     */
-    public function getPriorityVersionSlug() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getPriorityVersionSlug();
-        // @codingStandardsIgnoreEnd
-    }
-
-    /**
-     * Get episode image inside Broadcast
-     * 
-     * @return string
-     */
-    public function getSubtitle() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getSubtitle();
-        // @codingStandardsIgnoreEnd
-    }
-
-    /**
-     * 
-     * @return string
-     */
-    public function getShortSynopsis() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getShortSynopsis();
-        // @codingStandardsIgnoreEnd
-    }
-
-
-    /**
-     * 
-     * @return string
-     */
-    public function getReleaseDate() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getReleaseDate();
-        // @codingStandardsIgnoreEnd
-    }
-
-    /**
-     * 
-     * @return string
-     */
-    public function getDuration() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getDuration();
-        // @codingStandardsIgnoreEnd
-    }
-
-    /**
-     * 
-     * @return string
-     */
-    public function getMasterBrand() {
-        // @codingStandardsIgnoreStart
-        return $this->getEpisode()->getMasterBrand();
-        // @codingStandardsIgnoreEnd
     }
 
 }
