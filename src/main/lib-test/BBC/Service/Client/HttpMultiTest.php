@@ -7,8 +7,7 @@
  *
  * @category BBC
  * @package BBC_Service_Bamboo
- * @copyright Copyright (c) MMXII BBC (http://www.bbc.co.uk)
- * @author Rich Middleditch <richard.middleditch1@bbc.co.uk>
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 class BBC_Service_Bamboo_Client_HttpMultiTest extends PHPUnit_Framework_TestCase
 {

@@ -1,11 +1,10 @@
 <?php
 /**
  * BBC_Service_Bamboo_Models_Related
- * 
+ *
  * @category BBC
  * @package BBC_Service_Bamboo_Models
- * @author Charlie Rogers <charles.rogers@bbc.co.uk>
- * @copyright Copyright (c) 2013 BBC (http://www.bbc.co.uk)
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 class BBC_Service_Bamboo_Models_Related extends BBC_Service_Bamboo_Models_Element
 {
@@ -15,7 +14,7 @@ class BBC_Service_Bamboo_Models_Related extends BBC_Service_Bamboo_Models_Elemen
     /**
      * Returns the kind of the related link (e.g. priority_content).
      * This is different to the type (e.g. url)
-     * 
+     *
      * @access public
      * @return string
      */
@@ -25,7 +24,7 @@ class BBC_Service_Bamboo_Models_Related extends BBC_Service_Bamboo_Models_Elemen
 
     /**
      * Returns the description of the related link, which is stored in the synopses
-     * 
+     *
      * @access public
      * @return string
      */

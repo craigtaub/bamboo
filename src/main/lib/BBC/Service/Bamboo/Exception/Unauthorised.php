@@ -7,8 +7,7 @@
  *
  * @category BBC
  * @package BBC_Service_Bamboo
- * @copyright Copyright (c) 2007 - 2013 BBC (http://www.bbc.co.uk)
- * @author Jak Spalding <jak.spalding@gmail.com>
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 class BBC_Service_Bamboo_Exception_Unauthorised
     extends BBC_Service_Bamboo_Exception

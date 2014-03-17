@@ -5,8 +5,7 @@
  *
  * @category BBC
  * @package BBC_Service_Bamboo_Models
- * @author Matthew Williams <matthew.williams@bbc.co.uk>
- * @copyright Copyright (c) 2013 BBC (http://www.bbc.co.uk)
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 class BBC_Service_Bamboo_Models_Base
 {
@@ -91,8 +90,8 @@ class BBC_Service_Bamboo_Models_Base
      * Returns true if a date follows a specific format including the time in a 12-hour format
      * Will return true for 8pm 23 Feb 2010
      * And false for 23 Feb 2010
-     * 
-     * @param string $date 
+     *
+     * @param string $date
      * @return bool
      */
     private function _hasTimeInDate($date) {

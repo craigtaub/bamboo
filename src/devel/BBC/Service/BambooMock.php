@@ -6,8 +6,7 @@
  *
  * @category BBC
  * @package BBC_Service
- * @copyright Copyright (c) 2007 - 2013 BBC (http://www.bbc.co.uk)
- * @author
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 
 class BBC_Service_BambooMock extends BBC_Service_Bamboo

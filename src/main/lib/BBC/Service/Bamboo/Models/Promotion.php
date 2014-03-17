@@ -1,11 +1,10 @@
 <?php
 /**
  * BBC_Service_Bamboo_Models_Promotion
- * 
+ *
  * @category BBC
  * @package BBC_Service_Bamboo_Models
- * @author Miguel L Gonzalez <miguel.gonzalez@bbc.co.uk>
- * @copyright Copyright (c) 2013 BBC (http://www.bbc.co.uk)
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 class BBC_Service_Bamboo_Models_Promotion extends BBC_Service_Bamboo_Models_Element
 {
@@ -15,7 +14,7 @@ class BBC_Service_Bamboo_Models_Promotion extends BBC_Service_Bamboo_Models_Elem
 
     /**
      * Returns the subtitle of the promotion, which is stored in the synopses
-     * 
+     *
      * @access public
      * @return string
      */
@@ -25,7 +24,7 @@ class BBC_Service_Bamboo_Models_Promotion extends BBC_Service_Bamboo_Models_Elem
 
     /**
      * Returns the description of the promotion, which is stored in the synopses
-     * 
+     *
      * @access public
      * @return string
      */
@@ -38,7 +37,7 @@ class BBC_Service_Bamboo_Models_Promotion extends BBC_Service_Bamboo_Models_Elem
 
     /**
      * Returns the editorial label of the promotion, which is stored in the title
-     * 
+     *
      * @access public
      * @return string
      */
