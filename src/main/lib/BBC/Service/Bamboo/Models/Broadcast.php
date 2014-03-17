@@ -5,8 +5,7 @@
  *
  * @category BBC
  * @package BBC_Service_Bamboo_Models
- * @author Craig Taub <craig.taub@bbc.co.uk>
- * @copyright Copyright (c) 2013 BBC (http://www.bbc.co.uk)
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
 {
@@ -19,8 +18,8 @@ class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
     protected $_episode = "";
 
     /**
-     * Get type 
-     * 
+     * Get type
+     *
      * @return string
      */
     public function getType() {
@@ -29,7 +28,7 @@ class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
 
     /**
      * Get start time from episode
-     * 
+     *
      * @return string
      */
     public function getStartTime() {
@@ -40,7 +39,7 @@ class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
 
     /**
      * Get end time from episode
-     * 
+     *
      * @return string
      */
     public function getEndTime() {
@@ -51,7 +50,7 @@ class BBC_Service_Bamboo_Models_Broadcast extends BBC_Service_Bamboo_Models_Base
 
     /**
      * Get episode inside Broadcast
-     * 
+     *
      * @return BBC_Service_Bamboo_Models_Episode
      */
     public function getEpisode() {

@@ -6,8 +6,7 @@
  *
  * @category BBC
  * @package BBC_Service_Bamboo
- * @copyright Copyright (c) 2007 - 2009 BBC (http://www.bbc.co.uk)
- * @author Rich Middleditch <richard.middleditch1@bbc.co.uk>
+ * @copyright Copyright (c) 2014 BBC (http://www.bbc.co.uk)
  */
 
 class BBC_Service_BambooFake extends BBC_Service_Bamboo
