@@ -76,6 +76,10 @@ class BBC_Service_Bamboo implements BBC_Service_Interface
     public function getJson($feedName, $params = array()) {
         $params = $this->_prepareParams($params);
         $response = $this->_client->get($feedName, $params);
+        if (!$response) {
+            BBC_Service_Bamboo_Log::warn("No valid response from iBL");
+            return "{}"; //ModelFactory will decide what to do with an empty response
+        }
         return $response->getBody();
     }
 
